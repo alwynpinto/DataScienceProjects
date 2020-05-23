@@ -10,3 +10,7 @@ The data may be correlated to demographics, crime and weather, but have chosen t
 A link to the dataset can be found here: https://data.mendeley.com/datasets/6htjnfs78b/1
 Published: 2019-05-17
 DOI: 10.17632/6htjnfs78b.1
+
+Project Slides: [Sandwich Store Revenue Prediction](https://docs.google.com/presentation/d/1WuOpkopTTzWUltS1dVZGj-rVStuNWMgnB3Ub88RLkJo/edit#slide=id.g841b09998d_0_12)
+
+Project Report: [Report](https://drive.google.com/file/d/1NuroIt5a-WGZq_SbWRO2V5sOvuTp6_8m/view?usp=sharing)
