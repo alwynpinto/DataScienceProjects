@@ -31,7 +31,7 @@ Caveats:
 SMART statistics are inconsistent among manufacturers and could mean different metrics for each manufacturer. Back Blaze themselves use only 5 metrics for their analysis.
 Ref: https://www.backblaze.com/blog/what-smart-stats-indicate-hard-drive-failures/
 
-Addiional SMART under consideration:
+Additional SMART under consideration:
 SMART 189 – High Fly Writes. It is a cumulative count of the number of times the recording head “flies” outside its normal operating range.
 SMART_12 - Power Cycles. This stat could answer the dilemma between powering off your devices for longevity. Back Blaze does recycle their power every couple of months which is not the same as turning off a machine.
 As seen from the correlation, that these 8 metrics have little correlation with each other hence these 5 can be considered for further modelling.
