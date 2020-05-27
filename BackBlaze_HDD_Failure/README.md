@@ -3,6 +3,8 @@ Back Blaze HDD Failure Prediction
 Alwyn Pinto
 Date: 26th May 2020
 
+Slides: https://docs.google.com/presentation/d/1ovJAusjnYqhLE3ITKOHhaLnzEabA2MgVMDmFOApV9QI/edit?usp=sharing
+Report: https://drive.google.com/file/d/1e59_RJcHyxamELWsbAT4pwoxpoiGn4UR/view?usp=sharing
 
 Abstract
 Using data acquired from the Back Blaze website which includes Date, Serial Number, Model and raw and normalized values of SMART variables recorded since 2013. Using these SMART  raw data and running various models, an attempt is made to predict Hard Drive failures.
