@@ -6,10 +6,10 @@ Date: 26th May 2020
 Slides: https://docs.google.com/presentation/d/1ovJAusjnYqhLE3ITKOHhaLnzEabA2MgVMDmFOApV9QI/edit?usp=sharing
 Report: https://drive.google.com/file/d/1e59_RJcHyxamELWsbAT4pwoxpoiGn4UR/view?usp=sharing
 
-Abstract
+Abstract:
 Using data acquired from the Back Blaze website which includes Date, Serial Number, Model and raw and normalized values of SMART variables recorded since 2013. Using these SMART  raw data and running various models, an attempt is made to predict Hard Drive failures.
 
-Introduction
+Introduction:
 Welcome to my project on Prediction of Hard Drive failures. Each day since 2013, a snapshot of the basic drive information is taken along with SMART statistics of each operational drive.
 The data reported is as follows:
 Date – The date of the file in yyyy-mm-dd format.
@@ -21,13 +21,13 @@ Failure – Contains a “0” if the drive is OK. Contains a “1” if this is
 A link to the dataset can be found here:
 https://www.backblaze.com/b2/hard-drive-test-data.html#overview-of-the-hard-drive-data
 
-Problem Statement
+Problem Statement:
 Given the daily snapshot of each drive in the Back Blaze Hard Drive data center, predict the failure of a hard drive using the SMART statistics recorded by each operational drive.
 Back Blaze is currently considering if 3 other SMART metrics can be considered towards the prediction of the failure of hard drives.
 Back Blaze 5 SMARTs: smart_5, smart_187, smart_188, smart_197, smart_198
 Additional SMARTs: smart_9, smart_12, smart_189
 
-Caveats
+Caveats:
 SMART statistics are inconsistent among manufacturers and could mean different metrics for each manufacturer. Back Blaze themselves use only 5 metrics for their analysis.
 Ref: https://www.backblaze.com/blog/what-smart-stats-indicate-hard-drive-failures/
 
