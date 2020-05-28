@@ -1,3 +1,37 @@
+# Import all dependencies
+from glob import glob
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import math
+import random
+import time
+import datetime as dt
+from scipy import stats
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from imblearn.over_sampling import SMOTE
+from sklearn import metrics
+from sklearn.metrics import confusion_matrix, classification_report
+from sklearn import preprocessing
+from sklearn.decomposition import PCA
+from collections import Counter
+from numpy import where
+from imblearn.under_sampling import RandomUnderSampler
+from imblearn.pipeline import Pipeline
+from sklearn.model_selection import GridSearchCV
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.model_selection import StratifiedKFold
+
+import xgboost as XGBClassifier
+from numpy import mean
+from sklearn.model_selection import cross_val_score
+from sklearn.metrics import accuracy_score, recall_score, precision_score, f1_score, roc_auc_score, average_precision_score, fbeta_score
+from xgboost import XGBClassifier
+from sklearn.metrics import accuracy_score
+random.seed(42)
 
 
 
